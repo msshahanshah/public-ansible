@@ -1,0 +1,24 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Roles\n\n\nAll roles and thir functions  \n\n\naaronpederson.s3cmd\n\n\nInstalls and configures S3Cmd via PIP. \n\n\nbitssa-cp-code\n\n\n\n\nbitssa-update-config\n\n\ncreate-user\n\n\ndocker-install\n\n\nf5-add-pool\n\n\nf5-add-vs\n\n\nf5-remove-pool\n\n\nf5-remove-vs\n\n\ngit-get\n\n\ninstall-basic-packages\n\n\ninstall-build-essentials\n\n\ninstall-libpq-dev\n\n\ninstall-libv8-dev\n\n\ninstall-memcached\n\n\ninstall-nginx\n\n\ninstall-nvm\n\n\ninstall-oracle-java8\n\n\ninstall-redis-server\n\n\ninstall-unzip\n\n\ninstalled-home\n\n\njinja\n\n\nkitchen-install\n\n\nnotify-slack\n\n\nnvm1\n\n\noracle-java8\n\n\npbbcopy\n\n\nreboot\n\n\nresh_cp_code\n\n\nresh_restart_services\n\n\nresh_update_conf\n\n\nrvm\n\n\nrvm1\n\n\nsysdep\n\n\ntelusdigital.python\n\n\nubuntu_install_nginx\n\n\nvmware-vm-create\n\n\nvmware-vm-modify\n\n\nvmware-vm-remove\n\n\nvmware-vmmgmt\n\n\nwintest", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#roles", 
+            "text": "All roles and thir functions", 
+            "title": "Roles"
+        }, 
+        {
+            "location": "/#aaronpedersons3cmd", 
+            "text": "Installs and configures S3Cmd via PIP.", 
+            "title": "aaronpederson.s3cmd"
+        }, 
+        {
+            "location": "/#bitssa-cp-code", 
+            "text": "bitssa-update-config  create-user  docker-install  f5-add-pool  f5-add-vs  f5-remove-pool  f5-remove-vs  git-get  install-basic-packages  install-build-essentials  install-libpq-dev  install-libv8-dev  install-memcached  install-nginx  install-nvm  install-oracle-java8  install-redis-server  install-unzip  installed-home  jinja  kitchen-install  notify-slack  nvm1  oracle-java8  pbbcopy  reboot  resh_cp_code  resh_restart_services  resh_update_conf  rvm  rvm1  sysdep  telusdigital.python  ubuntu_install_nginx  vmware-vm-create  vmware-vm-modify  vmware-vm-remove  vmware-vmmgmt  wintest", 
+            "title": "bitssa-cp-code"
+        }
+    ]
+}
