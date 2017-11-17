@@ -1,0 +1,42 @@
+---
+- block:
+    - name: Installing dependencies
+      yum:
+        name: {{ item }}
+          with_items:
+            - epel-release
+            - git
+            - ruby
+            - python-setuptools
+          state: latest
+    - name: Install epel-release packages
+      yum:
+        name: {{ item }}
+          with_items:
+            - jq
+            - ansible
+            - python-pip
+        state: latest
+    - name: Installing dnspython module
+      pip:
+        name: dnspython
+        state: latest
+
+  when: ansible_os_family == 'RedHat'
+  become: yes
+  become_user: root
+
+- block:
+    - name: Install dependencies
+      apt:
+        name: "{{ item }}"
+          with_items:
+            - unzip
+            - byobu
+            - git
+            - jq
+            - vim
+            - python-pip
+        state: latest 
+  when: ansible_os_family == 'Ubuntu'
+  become: yes
