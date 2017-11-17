@@ -1,0 +1,22 @@
+---
+- block:
+  - name: checkout git repo.
+    git:
+      repo: 'https://{{ git_user | urlencode }}:{{ git_pass }}@{{ git_url }}'
+      dest: '/tmp/ansi/'
+      depth: 1
+      version: '{{ git_branch }}'
+      recursive: yes
+      update: yes
+
+  - name: archive the folder
+    archive:
+      path: '/tmp/ansi/'
+      dest: '{{ upload_location }}/code.zip'
+      format: zip
+  - name: remove the git folder from disk
+    file:
+      path: /tmp/ansi
+      state: absent
+  delegate_to: localhost
+  run_once: yes
